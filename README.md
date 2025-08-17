@@ -224,3 +224,44 @@ This project is for educational and research purposes.
 ---
 
 **Note**: This application requires a running MySQL database to function properly. Ensure all prerequisites are met before running.
+
+## 📝 Additional Notes
+
+### **Important Notes for Users:**
+
+1. **Database Connection Required**
+   - Program will not function without MySQL database connection
+   - Ensure MySQL server is running before launching the application
+   - Database `penyakitmalaria1` must exist and be accessible
+
+2. **MySQL JDBC Driver**
+   - Download MySQL Connector/J from official MySQL website
+   - File size should be 2-3 MB (not 554 bytes)
+   - Place driver in `libs/` folder
+
+3. **System Compatibility**
+   - Tested on Java 8 and higher
+   - Works on Windows, macOS, and Linux
+   - GUI may have font warnings on some systems (non-critical)
+
+4. **Performance Considerations**
+   - SVM algorithm performance depends on training data size
+   - Large datasets may require more memory and processing time
+   - Database queries are optimized for standard malaria classification data
+
+5. **Troubleshooting Tips**
+   - Check console output for detailed error messages
+   - Verify database credentials and connection settings
+   - Ensure all required files are present in project structure
+
+### **Development Notes:**
+
+- **Project Type**: NetBeans Java Application
+- **Build System**: Ant (build.xml)
+- **Database**: MySQL with JDBC
+- **Algorithm**: Support Vector Machine (SVM)
+- **UI Framework**: Java Swing with NetBeans GUI Builder
+
+### **Contact & Support:**
+
+For technical support or questions about this application, please refer to the project documentation or create an issue in the GitHub repository.
